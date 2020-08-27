@@ -1,0 +1,29 @@
+{
+  "name": "showdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./app.js",
+    "sit": "cross-env NODE_ENV=sit nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "axios": "^0.19.2",
+    "koa": "^2.13.0",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.4.0",
+    "log4js": "^6.3.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "ioredis": "^4.17.3",
+    "koa-bodyparser": "^4.3.0"
+  }
+}
